@@ -8,6 +8,8 @@
 
 ## 2、Matlab代码
 
+以Idiana Pines为例
+
 ```matlab
 %RGB_YCbCr
 clc;
@@ -163,4 +165,45 @@ axis on;
 impixelinfo;
 ```
 
-* [test](tes.docx)
+## 3、调整的参数
+
+在边缘探测中，我们使用了高斯模糊以及相应的边缘检测算法
+
+算子：
+
+- sobel
+- robert
+- prewitt
+
+高斯模糊参数
+
+- $ \sigma $
+
+边缘检测参数
+
+- Threshold （越大分隔得越少块）
+
+
+
+## 4、example
+
+参数
+
+- prewitt算子
+- $\sigma$ = 3
+- Threshold = 35
+
+![img](https://gblobscdn.gitbook.com/assets%2F-MVu4pfg1FQYKC-Y6Jr9%2F-MVu7NxBZECa9CRx5B_I%2F-MVuDTZ65qzSfBcp2yr3%2Fimage.png?alt=media&token=ce120635-f4af-4389-bc47-c411c62204d2)
+
+![img](https://gblobscdn.gitbook.com/assets%2F-MVu4pfg1FQYKC-Y6Jr9%2F-MVu7NxBZECa9CRx5B_I%2F-MVuDfpQGFmw27h6bDhl%2Fimage.png?alt=media&token=4ae45624-0b33-471e-b7ee-e4b72727a892)
+
+
+
+## 5、相应参数锁对应的分组
+
+[实验数据](Data/Edge_Detect_data.xls)
+
+
+
+
+
