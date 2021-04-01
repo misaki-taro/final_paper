@@ -15,3 +15,10 @@
 ## 2.对分组进行CCE
 
 对上一节中分好组的数据分别做CCE,得出结果
+
+
+
+## 3.结果表格？
+
+![img](https://gblobscdn.gitbook.com/assets%2F-MW9qnt5mI5Jcz-Mufx8%2F-MXBHDEbqtrHRWjiKgjC%2F-MXBaetS0LXTYKsltzxb%2Fimage.png?alt=media&token=644b29ef-3123-4eae-8517-c81549b38699)
+
